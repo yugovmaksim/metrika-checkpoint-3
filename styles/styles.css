@@ -1,0 +1,284 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  background: #f5f5f5;
+  font-weight: 400;
+  letter-spacing: -0.05em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  padding: 33px 125px 70px;
+  width: 1400px;
+  margin: auto;
+}
+
+.header-nav {
+  float: right;
+}
+
+.header-nav__link {
+  margin-right: 60px;
+  line-height: 28px;
+  font-size: 18px;
+  text-align: center;
+}
+.header-nav__link:hover {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
+.header-nav__link:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.metric {
+  min-width: 956px;
+  margin-bottom: 150px;
+}
+
+.metric__heading {
+  margin-bottom: 30px;
+  width: 956px;
+  font-size: 60px;
+  line-height: 60px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.metric__image {
+  position: relative;
+  background-image: url(../resources/Rectangle.png);
+  width: 100%;
+  height: 500px;
+}
+
+.metric__text {
+  position: absolute;
+  top: 379px;
+  left: 40px;
+  bottom: 40px;
+  width: 425px;
+  font-size: 20.4px;
+  line-height: 27.32px;
+  color: white;
+}
+
+.aboutus__title {
+  font-size: 18px;
+  line-height: 24.59px;
+  margin-bottom: 30px;
+  color: #121212;
+}
+
+.aboutus__text {
+  width: 1040px;
+  font-size: 45px;
+  line-height: 61.47px;
+  letter-spacing: -0.03em;
+  color: #121212;
+}
+
+.aboutus__btn {
+  margin-top: 30px;
+  margin-bottom: 150px;
+  display: block;
+  width: 255px;
+  height: 67px;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 61px;
+  font-size: 20px;
+  background-color: #ad1818;
+  color: white;
+  cursor: pointer;
+}
+
+.projects {
+  margin-bottom: 90px;
+}
+
+.projects__text {
+  margin-bottom: 32px;
+  font-size: 18px;
+  line-height: 20.59px;
+}
+
+.projects__image {
+  margin-bottom: 15px;
+  height: 450px;
+}
+
+.projects__description {
+  margin-bottom: 15px;
+  font-size: 30px;
+  line-height: 40.98px;
+}
+
+.projects__link {
+  font-size: 20px;
+  line-height: 24.32px;
+  color: #ad1818;
+}
+
+.projects__btn {
+  margin-top: 95px;
+  width: 100%;
+  height: 150px;
+  display: block;
+  border: 1px solid #ad1818;
+  background-color: white;
+  font-size: 30px;
+  line-height: 40.98px;
+  color: #ad1818;
+  cursor: pointer;
+}
+
+.projects__btn:hover {
+  background-color: #ad1818;
+  color: #ffffff;
+}
+
+.services-section {
+  margin-top: 151px;
+  padding-top: 151px;
+  width: 100%;
+  height: 1844px;
+  background-color: #121212;
+}
+
+.services__text {
+  margin-bottom: 34px;
+  margin-left: 2px;
+  width: 66px;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: #ffffff;
+}
+
+.services__image {
+  margin-bottom: 13px;
+  height: 270px;
+}
+
+.services__text-description {
+  margin-bottom: 60px;
+  font-size: 30px;
+  line-height: 40.98px;
+  color: #ffffff;
+}
+
+.forest_landscape-imeg {
+  position: relative;
+  width: 100%;
+  height: 717px;
+  background-image: url(../resources/Rectangle_13.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.forest_landscape-text {
+  position: absolute;
+  top: 575px;
+  left: 125px;
+  bottom: 60px;
+  width: 443px;
+  font-size: 30px;
+  line-height: 40.98px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.contacts {
+  margin-top: 35px;
+  margin-left: -1px;
+  margin-bottom: 160px;
+  width: 1400px;
+}
+
+.contacts-title {
+  position: relative;
+  margin-top: 184px;
+  width: 90px;
+  font-size: 18px;
+  line-height: 24.59px;
+}
+
+.contacts-title::before {
+  position: absolute;
+  left: -5px;
+  top: -35px;
+  content: "";
+  width: 25px;
+  height: 26px;
+  background-image: url(../resources/iphone.png);
+  background-size: contain;
+}
+
+.telephone {
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 30px;
+  width: 480px;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.mail {
+  font-size: 58px;
+  line-height: 60px;
+}
+
+.telephone:hover,
+.mail:hover {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer-nav {
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 87px;
+  padding-top: 61px;
+  width: 461px;
+}
+
+.footer-nav__link {
+  margin-right: 57px;
+  height: 25px;
+  white-space: nowrap;
+  font-size: 18px;
+  line-height: 24.59px;
+  color: white;
+}
+
+.footer-nav__link:hover {
+  opacity: 0.5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.footer-nav__text {
+  padding-bottom: 30px;
+  text-align: center;
+  font-size: 20.4px;
+  line-height: 27.32px;
+  color: gray;
+}
